@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --first-colour:#ab2330;
+    --second-colour: linear-gradient(150deg,#f0c433, #f0c433, #dcba2c, #dcba2c, #ae8f1f, #ae8f1f);
+    --second-colour-lining-light: #d7ad00;
+    --second-colour-lining-shadow: #cb9e59;
+    --second-colour-glow: #ffd772;
+    --third-colour: #555d50;
+    --fourth-colour: #fffff0;
+
+    --first-font: 'Glook';
+    --second-font: 'Quicksand'
+}

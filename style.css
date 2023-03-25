@@ -12,3 +12,16 @@
     --first-font: 'Glook';
     --second-font: 'Quicksand'
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.intro

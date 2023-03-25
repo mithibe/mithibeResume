@@ -24,6 +24,8 @@ body{
     grid-template-rows: 1fr 3fr;
 }
 
+/* the introduction section */
+
 .intro{
     display:  grid;
     grid-template-rows:2fr 1fr;
@@ -42,4 +44,39 @@ body{
 
 .about{
     grid-area: introAbout;
+}
+
+/* the information section */
+
+.info{
+    display: grid;
+    grid-template-columns:1fr 2fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'infoTechnicalProfile infoCompetencies'
+    'infoSoftware infoEducation'
+    'infoHobbies infoLanguages';
+}
+
+.technicalProfile{
+    grid-area: infoTechnicalProfile;
+}
+
+.competencies{
+    grid-area: infoCompetencies;
+}
+
+.softwares{
+    grid-area: infoSoftware;
+}
+
+.education{
+    grid-area: infoEducation;
+}
+
+.hobbies{
+    grid-area: infoHobbies;
+}
+
+.languages{
+    grid-area: infoLanguages;
 }

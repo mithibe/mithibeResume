@@ -24,4 +24,22 @@ body{
     grid-template-rows: 1fr 3fr;
 }
 
-.intro
+.intro{
+    display:  grid;
+    grid-template-rows:2fr 1fr;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 'introName introName'
+    'introContact introAbout';
+}
+
+.bio{
+    grid-area: introName;
+}
+
+.contact{
+    grid-area: introContact;
+}
+
+.about{
+    grid-area: introAbout;
+}

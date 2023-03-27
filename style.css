@@ -16,17 +16,27 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
 
 body{
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
     display: grid;
+    justify-content: center;
+    align-content: center;
     grid-template-rows: 1fr 3fr;
 }
 
 /* the introduction section */
 
 .intro{
+    padding: 3vh 3vh;
+    background: var(--third-colour);
+    color: var(--fourth-colour);
+    font-family: 'Gloock' ;
     display:  grid;
     grid-template-rows:2fr 1fr;
     grid-template-columns: 1fr 3fr;
@@ -49,12 +59,19 @@ body{
 /* the information section */
 
 .info{
+    padding: 5vh 3vh;
+    background: var(--fourth-colour);
+    font-family: 'Quicksand';
     display: grid;
-    grid-template-columns:1fr 2fr ;
+    grid-template-columns:1fr 3fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 'infoTechnicalProfile infoCompetencies'
     'infoSoftware infoEducation'
     'infoHobbies infoLanguages';
+}
+
+li{
+    margin: 3px;
 }
 
 .technicalProfile{
@@ -68,6 +85,11 @@ body{
 .softwares{
     grid-area: infoSoftware;
 }
+
+/* .softwares ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+} */
 
 .education{
     grid-area: infoEducation;

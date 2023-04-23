@@ -80,7 +80,7 @@ body{
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 'infoTechnicalProfile infoCompetencies'
     'infoSoftware infoEducation'
-    'infoHobbies infoLanguages';
+    'infoHobbies infoProjects';
 }
 
 li{
@@ -112,8 +112,8 @@ li{
     grid-area: infoHobbies;
 }
 
-.languages{
-    grid-area: infoLanguages;
+.projects{
+    grid-area: infoProjects;
 }
 
 .left{
